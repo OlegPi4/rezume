@@ -12,7 +12,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video, button {
-   margin: 0;
+  margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -110,9 +110,8 @@ html {
   border-radius: 50%;
 }
  .list-contacts, .list-skils {
-   padding: 0 20px;
-   margin-top: 40px;
-   font-size: 1.4rem;
+   padding: 0 10px;
+   margin-top: 10px;
    font-weight: 400;
    margin-bottom: 20px;
  }
