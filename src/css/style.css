@@ -102,6 +102,19 @@ html {
    color: var(--colorleft);
    letter-spacing: 1px;
  }
+ .left-name {
+  display: none;
+  text-align: center;
+ }
+ .left-card__name {
+  padding-top: 15px;
+  font-size: 28px;
+ }
+ .left-card__range {
+  padding-top: 12px;
+  font-size: 20px;
+  margin-bottom: 10px;
+ }
  .foto {
    margin: 25px auto;
    max-width: 250px;
@@ -242,10 +255,13 @@ html {
     grid-template-columns: 1fr 1fr;
   }
 } 
- @media  screen and (max-width: 740px) {
+ @media  screen and (max-width: 720px) {
   .content {
     display: flex;
     flex-direction: column;
+  }
+  .left-name {
+    display: block;
   }
  }
  @media  screen and (max-width: 560px) {
