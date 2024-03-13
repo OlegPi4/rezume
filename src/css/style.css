@@ -75,7 +75,7 @@ html {
  .wrapper {
    position: relative; 
    max-width: 1240px;
-   margin: 20px auto;
+   margin: 0 auto;
    margin-bottom: 20px;   
  }
 .gold-block {
@@ -98,7 +98,7 @@ html {
 }
  .content-left {
    background-color: var(--bgcolorleft);
-   padding: 20px 20px;
+   padding: 10px 20px;
    color: var(--colorleft);
    letter-spacing: 1px;
  }
@@ -130,7 +130,7 @@ html {
  }
  .line, .line-r {
    margin: 0 auto;
-   width: 90%;
+   width: 95%;
    height: 1px;
    background-color: var(--colorline);
  }
@@ -153,7 +153,7 @@ html {
 
  }
 .content-right {
-   padding: 20px 30px;
+   padding: 5px 30px;
    background-color: var(--bgcolorright);
    color: var(--colorright) 
 }
@@ -163,7 +163,7 @@ html {
    font-size: 38px;
 }
 .right-card__range {
-   padding-top: 20px;
+   padding-top: 10px;
    text-align: center;
    font-size: 28px;
    margin-bottom: 20px;
