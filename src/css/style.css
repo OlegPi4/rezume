@@ -108,11 +108,11 @@ html {
  }
  .left-card__name {
   padding-top: 15px;
-  font-size: 28px;
+  font-size: 30px;
  }
  .left-card__range {
   padding-top: 12px;
-  font-size: 20px;
+  font-size: 22px;
   margin-bottom: 10px;
  }
  .foto {
@@ -262,6 +262,9 @@ html {
   }
   .left-name {
     display: block;
+  }
+  .right-head {
+    display: none;
   }
  }
  @media  screen and (max-width: 560px) {
